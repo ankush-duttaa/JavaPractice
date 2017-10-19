@@ -1,8 +1,9 @@
 class LocalVariable{  
-static int i;
+static int i=82;
     public static void main(String args[]){
-    int j=1;
-  	System.out.println("j="+j); 
+    int i;
+	i=5;
+  	System.out.println("Ankush.;....."+i); 
 	System.out.println("i="+i);
    
     }  
