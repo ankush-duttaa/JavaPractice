@@ -5,7 +5,7 @@ int w;
 int d;
 }
 
-public class main{
+public class Main{
 public static void main(String[] args){
 Box box1 = new Box();
 System.out.println("Height=" +box1.h);
