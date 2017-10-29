@@ -1,5 +1,4 @@
 public class Stackr{
-	public static void main(String[] args){
 	int[] a= new int [10];
 	a[0]=1;
 	a[1]=2;
@@ -12,20 +11,19 @@ public class Stackr{
 	a[7]=9;
 	a[8]=10;
 	a[9]=11;
-	
-	}    public int Push () {
-	
-	           for (int i =0; i>=0; i++) {
-		       return i;
-}
-			 
-			   }   
-	
-	      public int pop () {
-	    		
-	           for (int j =9; j <=0; j--) {
-		       return j;
-}
-			
-}
+	int top =-1;
+	int i;
+
+           	public int Push () {
+		        
+	              int top =top+1;
+	              a[i]=top;
+	              System.outprintln("Value" +a[i]);
+	        }
+		      	
+	        public int pop (int i) {
+	    		  int top =top-1;
+	              a[i]=top;
+			   
+            }
 }
