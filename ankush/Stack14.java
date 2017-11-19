@@ -29,7 +29,7 @@ public class Stack14 {
 		return x;	
 	}
 	
-	public void push(int a) {
+	public void push(char a) {
 		if(top == (arr.length-1)) {
 			System.out.println("Stack is full");
 			return;

@@ -11,22 +11,25 @@ public class Brakets{
 	String value = br.readLine();
 	char arr[]= value.toCharArray();
 	
+	 
 	int size =  arr.length;
-	System.out.println("Enter the full string: " +size);
+	/*System.out.println("Enter the full string: " +size);*/
 	
-	Stack14 s = new Stack14(size);
+	 Stack14 s = new Stack14(size);
 	    char c1=arr[0];
 	        if(c1=='[' || c1=='{' || c1=='('){ 
 		    s.push(c1);
-			}else if (c1==']' || c1=='}' || c1==')')
-             int x = char c1;
-		     int j = s.pop();
-			      if( (x=='[' && j== ']' ) || (x=='{' && j== '}' ) (x=='(' && j== ')' )){
-              System.out.println("wow");
+			}
+			     else if (c1==']' || c1=='}' || c1==')'){
+                 int x = c1;
+		         int j = s.pop();
+			           /*if( (x=='[' && j== ']' ) || (x=='{' && j== '}' ) (x=='(' && j== ')' )){
+                       System.out.println("Match");
+					   }
 				  }else {
-				System.out.println("uff");  
+				System.out.println("Not Match");  
 				  
-			}		 
+			    }		 
 	
 	
 	
@@ -40,6 +43,7 @@ public class Brakets{
 	    if(p==1){
              System.out.println("Enter value for push: ");
 	         String value11 = br.readLine();
+	         String value11 = br.readLine();
 	         int x = Integer.parseInt(value11);
       	     s.push(x);
 	    }  else if(p==2){
@@ -49,6 +53,11 @@ public class Brakets{
 		     break ;
 	    }*/
 	}
+	}
+	}
+
+
+
 	
 		
 		
