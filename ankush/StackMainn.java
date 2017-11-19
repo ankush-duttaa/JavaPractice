@@ -10,27 +10,30 @@ public class StackMainn{
     System.out.println("Enter size of the Stack: ");
 	String size = br.readLine();
 	
-	Stack14 s = new Stack14(Integer.parseInt(size))
-	 
-		while(int a ==1 ){  
-        System.out.println("Enter 1 for push");
-		System.out.println("Enter the value For A: ");
-	String value10 = br.readLine();
-	if(a==1){
-     System.out.println("Enter value for push");
-      	 s.push();
-	}
-	 elseif(a==2){
-       s.pop();
-	 }
-	 else{
-		 break ;
-	 }
-		}
+	Stack14 s = new Stack14(Integer.parseInt(size));
+	int a=1;
+	int p; 
+	while(a ==1 ){  
+        System.out.println("Enter 1 for push, 2 for pop, other for exit");
+		System.out.println("Enter your choice: ");
+	    String value10 = br.readLine();
+	    p = Integer.parseInt(value10);
+	    if(p==1){
+             System.out.println("Enter value for push: ");
+	         String value11 = br.readLine();
+	         int x = Integer.parseInt(value11);
+      	     s.push(x);
+	    }  else if(p==2){
+             int y = s.pop();
+	         System.out.println("popped value:" + y);
+	    } else{
+		     break ;
+	    }
+		
 	
 	
 	
-	System.out.println("Enter First value: ");
+	/*System.out.println("Enter First value: ");
 	String value = br.readLine();
 	s.push(Integer.parseInt(value));
 	
@@ -60,6 +63,7 @@ public class StackMainn{
 	System.out.println("Pop 4: " + s.pop());
 	System.out.println("Pop 5: " + s.pop());
 	System.out.println("Pop 5: " + s.pop());
-	
+	*/
 	}
+  }
 }
