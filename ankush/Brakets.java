@@ -15,18 +15,30 @@ public class Brakets{
 	int size =  arr.length;
 	/*System.out.println("Enter the full string: " +size);*/
 	
-	 Stack14 s = new Stack14(size);
+	 Stack14 s =  new Stack14(size);
 	    char c1=arr[0];
-	        if(c1=='[' || c1=='{' || c1=='('){ 
+		char c2=arr[1];
+		char c3=arr[2];
+		
+		
+	     if(c1=='[' || c1=='{' || c1=='('  || c2=='[' || c2=='{' || c2=='(' ||
+		    c3=='[' || c3=='{' || c3=='('   ){ 
+		 
 		    s.push(c1);
+			s.push(c2);
+			s.push(c3);
+			
+			
 			}
-			     else if (c1==']' || c1=='}' || c1==')'){
-                 int x = c1;
-		         int j = s.pop();
-			           /*if( (x=='[' && j== ']' ) || (x=='{' && j== '}' ) (x=='(' && j== ')' )){
+		      else if (c1==']' || c1=='}' || c1=='('  && c2==']' || c2=='}' || c2==')' &&
+		                   c3==']' || c3=='}' || c3==')'){
+                 char x =c1;
+				 
+		         char y = s.pop();
+			           /*if ((x== '[' && y== ']')||(x== '{' && y== '}')||(x== '(' && y== ')')){
                        System.out.println("Match");
 					   }
-				  }else {
+				  else {
 				System.out.println("Not Match");  
 				  
 			    }		 
@@ -54,7 +66,10 @@ public class Brakets{
 	    }*/
 	}
 	}
-	}
+}
+
+	
+	
 
 
 

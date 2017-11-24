@@ -13,17 +13,17 @@ public class Stack14 {
 	public char pop() {
 		
 		
+		
+		
+		
 		if(top == -1) {
 			System.out.println("Stack is empty");
 			return '@';
 		}
-		char x = arr[0];
-		char y = arr[1];
-		char z = arr[2];
+		char x = arr[top];
 		
 		top = top -1;
-		return x;
-		
+		return x;	
 	}
 	
 	public void push(char a) {
