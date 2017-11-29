@@ -13,4 +13,11 @@ int depth;
 	 widht=w;
 	  hight=h;
  }
-}
+
+
+	
+ 
+ }
+
+
+

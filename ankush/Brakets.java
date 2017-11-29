@@ -13,6 +13,12 @@ public class Brakets{
 	
 	 
 	int size =  arr.length;
+	
+	
+	
+	
+	
+=[0[998888887777778UI889I990P000]]][---[=]==============\=-]0[-P----------------------------------------------------------------------------------------------------------------
 	/*System.out.println("Enter the full string: " +size);*/
 	
 	 Stack14 s =  new Stack14(size);
