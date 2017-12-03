@@ -1,5 +1,5 @@
 public class Queue {
-	int F;
+	char F;
 	int R;
 	char [] arr; 
 	
