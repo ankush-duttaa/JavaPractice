@@ -7,9 +7,9 @@ public class Main2{
 	public static void main(String [] args) throws IOException{
 		
 	BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-    System.out.println("Enter the Size: ");
-	String size = br.readLine();
-	
+    //System.out.println("Enter the Size: ");
+	//String size = br.readLine();
+	String size = 7;
 	Queue q = new Queue(Integer.parseInt(size));
 	q.Insert('A');
 	q.Insert('B');
