@@ -15,6 +15,7 @@ public class SIZE{
 	int space = 0;
 	int letter = 0;
 	int num = 0;
+    int upper =0;
 
 	for (char i=0;i<arr.length;i++)
 		
@@ -28,19 +29,25 @@ public class SIZE{
 		      }
 			   else if (Character.isDigit(arr[i])){
 				num= num+1;
+			   }
+			   else if(Character.isUpperCase(arr[i])){
+				upper= upper+1;
+			   }
+			   
 		      }
-		}
+		
 	           System.out.println("Total number of Spaces in a given String are: " +space);
 	           System.out.println("Total number of letter in a given String are: " +letter);
                System.out.println("Total number of num in a given String are: " +num);
 			   int sum =space+letter+num;
-			   System.out.println("Total number of num in a given String are: " +sum);
-			   
+			   System.out.println("Total SUM: " +sum);
+			    System.out.println("Total Upper case : " +upper);
 			   if(size == sum){
 				   System.out.println("Input and out put match" );
 			   }
 			   else{
-				   System.out.println("Input and out put Not match" );
+				   System.out.println("Input and out put Not match");
 			   }
    }
 }
+
