@@ -1,5 +1,9 @@
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.io.IOException;
 
-Public class Duplicate{
+
+public class Duplicate{
  
 public static void main(String [] args) throws IOException{
 		
@@ -12,13 +16,11 @@ int size=arr.length;
 
 for ( char i =0 ; i<arr.length ; i++){
 
- if (removeDuplicates(arr[i]){
+ if (removeDuplicates(arr[i])){
 
- 
-
+ System.out.println("new value is  "+ (arr[i]));
 }
 
-System.out.println("new value is  "+ arr[]));
 
 else {
 	break;
@@ -26,4 +28,6 @@ else {
 
 }
 }
+
+
 }
