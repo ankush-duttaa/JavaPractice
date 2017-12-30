@@ -11,11 +11,12 @@ public class Swip{
 	for(int i=0; i<arr.length/2; i++)
 	{
 		int temp =arr[i];
-		arr[i]=arr[arr.length-i];
-		arr[arr.length-i]= temp;
+		arr[i]=arr[arr.length-i-1];
+		arr[arr.length-i-1]= temp;
 	System.out.println("Total array size is :" + arr[i]);
 	}
-System.out.println("Arr is "  +Arrays.toString(arr));
+	
+    System.out.println("Arr is "  +Arrays.toString(arr));
 
 	
 	}

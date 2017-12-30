@@ -7,11 +7,8 @@ public class SUM{
 	
 	public static void main(String [] args) throws IOException{
 		
-	BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-    System.out.println("Enter the whole String: ");
-    String value = br.readLine();
 	
-	int arr[]=Integer.parseInt(value);
+	int arr[]=getInputAsIntArray();
 	
 	int size=arr.length;
 	System.out.println("Total array size is :" + size);
@@ -23,6 +20,23 @@ public class SUM{
 		System.out.println("Sum of the Array is  :" + Sum);
 	
 	}
+	
+	public static int[] getInputAsIntArray() throws IOException {
+
+    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+    System.out.println("Enter the whole String: ");
+		
+    String value = br.readLine();
+	
+	String[] num = value.split(",");
+	
+	int arr[] = new int[num.length];
+	for(int i=0; i< num.length ; i++) {
+		arr[i] = Integer.parseInt(num[i]);
+	}
+    
+	return arr;
+   }	
 	
 }
 	
