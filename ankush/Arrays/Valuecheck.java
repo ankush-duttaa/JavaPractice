@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.IOException;
 
-/*Value check */
+/*check the particualr value in an Array */
 public class Valuecheck{
 	
 	public static void main(String [] args) { 

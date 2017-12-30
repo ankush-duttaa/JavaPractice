@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.IOException;
 
-/*Value check */
+/*Position check of an particulr array Value */
 public class Positioncheck{
 	
 	public static void main(String [] args) { 
