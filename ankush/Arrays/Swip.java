@@ -1,26 +1,21 @@
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.IOException;
-
+import java.util.Arrays; 
 /*Reverse An Array*/
 public class Swip{
 	
-	public static void main(String [] args) throws IOException{
-		
-	BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-    System.out.println("Enter the whole String: ");
-    String value = br.readLine();
-	char arr[]=value.toCharArray();
-	int size=arr.length;
-	System.out.println("Total array size is :" + size);
+	public static void main(String [] args) { 
+		int arr[] = {10,5,17,19,2,3};
 	
-	for(char i=0; i<arr.length/2; i++)
+	for(int i=0; i<arr.length/2; i++)
 	{
-		char temp =arr[i];
+		int temp =arr[i];
 		arr[i]=arr[arr.length-i];
 		arr[arr.length-i]= temp;
 	System.out.println("Total array size is :" + arr[i]);
 	}
+System.out.println("Arr is "  +Arrays.toString(arr));
 
 	
 	}
