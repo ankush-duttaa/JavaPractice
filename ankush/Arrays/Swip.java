@@ -22,9 +22,6 @@ System.out.println("Arr is "  +Arrays.toString(arr));
 	
 }
 	
-	/* error :-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 5
-	at Swip.main(Swip.java:19)*/
-
 	
 	
 	
