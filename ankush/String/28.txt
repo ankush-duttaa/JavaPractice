@@ -1,0 +1,13 @@
+public class Tochararray{
+    
+  public static void main(String[] args)
+    {
+        String str = "Ankush Dutta";
+
+        
+        char[] a = str.toCharArray();
+
+     
+        System.out.println(a);
+    }
+}

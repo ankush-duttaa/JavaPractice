@@ -1,0 +1,9 @@
+public class UpperLower{
+  public static void main(String[] args){
+String s1= " Ankush Dutta ";
+String u = s1.toUpperCase();
+String l = s1.toLowerCase();
+System.out.println("Aftet Trim the value is :"    + u );
+System.out.println("Aftet Trim the value is :"    + l );
+}
+}

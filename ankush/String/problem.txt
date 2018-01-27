@@ -1,0 +1,30 @@
+10,11,15 ,16,17,20,23,
+
+difference between copair and equal
+difference between 19 and 21
+int a = str.indexOf("a", 0)
+int a = str.lastIndexOf("a", str.length() - 1);
+
+
+https://beginnersbook.com/2013/12/java-strings/
+
+public class Program {
+
+    public static int booleanToInt(boolean value) {
+        // Convert true to 1 and false to 0.
+        return value ? 1 : 0;
+    }
+
+    public static void main(String[] args) {
+        // Test our conversion method.
+        boolean value = false;
+        int number = booleanToInt(value);
+        System.out.println(number);
+        System.out.println(booleanToInt(true));
+    }
+}
+
+Output
+
+0
+1

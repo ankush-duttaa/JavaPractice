@@ -11,15 +11,16 @@ public class Valuecheck{
 		
 	for(int i=0; i<arr.length; i++)
 	{
-		if(arr[i]==15){
-			System.out.println("The value is found ");
-			break;
-		}
-	}
-		
 	
+			list.splice( list.indexOf((15), 1 );
+			
+		}
+	
+		
+	System.out.println("After Remove new Array is  : " +Arrays.toString(arr));
 	}
 }
+
 
 	
 	

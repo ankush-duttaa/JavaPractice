@@ -1,0 +1,27 @@
+public class startsWith {
+    
+   public static void main(String[] args)
+    {
+        String s1 = "Red is favorite color.";
+        String s2 = "Orange is also my favorite color.";
+
+
+        String startStr = "Red";
+
+        
+        boolean starts1 = s1.startsWith(startStr);
+        boolean starts2 = s2.startsWith(startStr);
+        if( starts1 && starts2 ==  true){
+            starts1 = "YES";
+             starts2 = "YES";
+        }else {
+            starts1 = "No";
+             starts2 = "No";
+        }
+    
+        System.out.println( s1 + " starts with " +
+             startStr + "? " + starts1);
+        System.out.println(s2 + " starts with " +
+             startStr + "? " + starts2);
+    }
+}

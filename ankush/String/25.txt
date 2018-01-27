@@ -1,0 +1,13 @@
+public class replaceAll {
+    
+   public static void main(String[] args)
+    {
+        String s1 = "Ankush Dutta is good boy.";
+
+         
+        String new_str = s1.replaceAll("good ", "bad ");
+       
+
+        System.out.println("New String: " + new_str);
+    }
+}

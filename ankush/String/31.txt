@@ -1,0 +1,7 @@
+public class Trim{
+  public static void main(String[] args){
+String s1= " Ankush Dutta ";
+String T = s1.trim();
+System.out.println("Aftet Trim the value is :"    + T );
+}
+}
