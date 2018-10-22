@@ -28,6 +28,9 @@ public class LinkListss {
 		arrl.set(6,"Replace");
 		System.out.println("Index searching and replace Time:-" +formatter.format(date));
 		System.out.println("After Replace ArrayList : "+arrl);
+		arrl.remove("Third");
+		System.out.println("After Remove ArrayList : "+arrl);
+		
 		boolean isFound = arrl.contains("Random");
 		if(isFound == false)
 			System.out.println("Element is not found in the list");
